@@ -1,45 +1,84 @@
-.navbar-container {
-    width: 100%;
-    height: 70px;
-    background: #7b61ff;
-    display: flex;
-    justify-content: center;
+@media (max-width: 800px) {
+    .navbar-container {
+        width: 100%;
+        height: 50px;
+        background: #7b61ff;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-wrapper {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    .navbar-logo {
+        font-family: Monoton;
+        font-size: 20px;
+        line-height: 56px;
+        color: white;
+    }
+    .navbar-sub-items {
+        display: flex;
+        justify-items: center;
+        margin: 0px;
+        list-style: none;
+        gap: 2rem;
+        color: white;
+        font-family: Roboto;
+        font-size: 12px;
+        width: 1rem;
+    }
+    .navbar-sub-items .navbar-sub-item:hover {
+        color: black;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .navbar-sub-item {
+        width: 100%;
+        text-align: center;
+    }
 }
 
-.navbar-wrapper {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-logo {
-    font-family: Monoton;
-    font-size: 36px;
-    line-height: 56px;
-    color: white;
-}
-
-.navbar-sub-items {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    margin: 0px;
-    list-style: none;
-    gap: 2rem;
-    color: white;
-    font-family: Roboto;
-    font-size: 24px;
-    width: 30rem;
-}
-
-.navbar-sub-items .navbar-sub-item:hover {
-    color: black;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.navbar-sub-item {
-    width: 100%;
-    text-align: center;
+@media (min-width: 800px) {
+    .navbar-container {
+        width: 100%;
+        height: 70px;
+        background: #7b61ff;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-wrapper {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-logo {
+        font-family: Monoton;
+        font-size: 36px;
+        line-height: 56px;
+        color: white;
+    }
+    .navbar-sub-items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        margin: 0px;
+        list-style: none;
+        gap: 2rem;
+        color: white;
+        font-family: Roboto;
+        font-size: 24px;
+        width: 30rem;
+    }
+    .navbar-sub-items .navbar-sub-item:hover {
+        color: black;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .navbar-sub-item {
+        width: 100%;
+        text-align: center;
+    }
 }
