@@ -4,9 +4,9 @@ import NavBar from './Screens/GlobalComponents/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-    </div>
+      <NavBar from={{
+        pathname: ''
+      }} prevState={null} location={undefined}/>
   );
 }
 

@@ -82,3 +82,8 @@
         text-align: center;
     }
 }
+
+.active {
+    color: black;
+    font-weight: 600;
+}
