@@ -7,11 +7,12 @@
     overflow: hidden;
 }
 .WelcomePage__ImageCarousel{
-    display:flex;
+    display: grid;
     gap: 3rem;
     height: 100%;
     width: 100%;
     justify-items: center;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 .WelcomePage__ImageCarousel__Container{
     display: flex;
@@ -41,13 +42,4 @@
 }
 .WelcomePage__MovieRating li:nth-child(1){
     color:#C4C4C4;
-}
-.WelcomePage__ImageCarousel__Container:nth-child(1){
-    transform: perspective(12px) rotateY(1deg) scaleX(1.5) translateX(3px);
-}
-.WelcomePage__ImageCarousel__Container:nth-child(2){
-    width: 1px;
-}
-.WelcomePage__ImageCarousel__Container:nth-child(3){
-    transform: perspective(12px) rotateY(359deg) scaleX(1.5) translateX(3px);
 }
