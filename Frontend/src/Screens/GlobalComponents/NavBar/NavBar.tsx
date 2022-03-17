@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css';
 
-interface TUserLocation{
+interface I_UserLocation{
     from:{pathname: string};
     prevState: null;
     location:any;
   }
-const NavBar:React.FC<TUserLocation>=()=> {
+const NavBar:React.FC<I_UserLocation>=()=> {
     const location = useLocation(); // once ready it returns the 'window.location' object
     const [url, setUrl] = useState<string | null>(null);
     useEffect(() => {
