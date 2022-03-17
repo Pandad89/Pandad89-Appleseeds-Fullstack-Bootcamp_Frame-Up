@@ -16,14 +16,14 @@ const NavBar:React.FC<I_UserLocation>=()=> {
     }, [location.pathname]);
 
     return (
-        <nav className='navbar-container'>
-            <div className="navbar-wrapper">
-                <h2 className="navbar-logo">FramUp</h2>
-                <ul className="navbar-sub-items">
-                    <Link to="/"><li className={"navbar-sub-item" + (url === "/" ? " active" : "")} >Popular</li></Link>
-                    <Link to="/movies"><li className={"navbar-sub-item" + (url === "/movies" ? " active" : "")}>Movies</li></Link>
-                    <Link to="/series"><li className={"navbar-sub-item" + (url === "/series" ? " active" : "")}>Series</li></Link>
-                    <Link to="/kids"><li className={"navbar-sub-item" + (url === "/kids" ? " active" : "")}>Kids</li></Link>
+        <nav className='Navbar__NavbarContainer'>
+            <div className="Navbar__NavbarWrapper">
+                <h2 className="Navbar__NavbarLogo">FramUp</h2>
+                <ul className="Navbar__NavbarSubItems">
+                    <Link to="/"><li className={"Navbar__NavbarSubItem" + (url === "/" ? " Navbar__NavbarSubItemActive" : "")} >Popular</li></Link>
+                    <Link to="/movies"><li className={"Navbar__NavbarSubItem" + (url === "/movies" ? " Navbar__NavbarSubItemActive" : "")}>Movies</li></Link>
+                    <Link to="/series"><li className={"Navbar__NavbarSubItem" + (url === "/series" ? " Navbar__NavbarSubItemActive" : "")}>Series</li></Link>
+                    <Link to="/kids"><li className={"Navbar__NavbarSubItem" + (url === "/kids" ? " Navbar__NavbarSubItemActive" : "")}>Kids</li></Link>
                 </ul>
             </div>
 
@@ -32,15 +32,3 @@ const NavBar:React.FC<I_UserLocation>=()=> {
 };
 
 export default NavBar;
-
-    // <div>
-    //     <div className='navbar'>
-    //         <h2 className='main_item'>FrameUp</h2>
-    //         <div className='sub_items'>
-    //             <h3 className='item'><span>Popular</span></h3>
-    //             <h3 className='item'><span>Movies</span></h3>
-    //             <h3 className='item'><span>Series</span></h3>
-    //             <h3 className='item'><span>Kids</span></h3>
-    //         </div>
-    //     </div>
-    // </div >
