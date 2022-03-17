@@ -1,24 +1,24 @@
 @media (max-width: 800px) {
-    .navbar-container {
+    .Navbar__NavbarContainer {
         width: 100%;
         height: 50px;
         background: #7b61ff;
         display: flex;
         justify-content: center;
     }
-    .navbar-wrapper {
+    .Navbar__NavbarWrapper {
         width: 90%;
         display: flex;
         align-items: center;
         gap: 2rem;
     }
-    .navbar-logo {
+    .Navbar__NavbarLogo {
         font-family: Monoton;
         font-size: 20px;
         line-height: 56px;
         color: white;
     }
-    .navbar-sub-items {
+    .Navbar__NavbarSubItems {
         display: flex;
         justify-items: center;
         margin: 0px;
@@ -29,38 +29,38 @@
         font-size: 12px;
         width: 1rem;
     }
-    .navbar-sub-items .navbar-sub-item:hover {
+    .Navbar__NavbarSubItems .Navbar__NavbarSubItem:hover {
         color: black;
         font-weight: 600;
         cursor: pointer;
     }
-    .navbar-sub-item {
+    .Navbar__NavbarSubItem {
         width: 100%;
         text-align: center;
     }
 }
 
 @media (min-width: 800px) {
-    .navbar-container {
+    .Navbar__NavbarContainer {
         width: 100%;
         height: 70px;
         background: #7b61ff;
         display: flex;
         justify-content: center;
     }
-    .navbar-wrapper {
+    .Navbar__NavbarWrapper {
         width: 90%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .navbar-logo {
+    .Navbar__NavbarLogo {
         font-family: Monoton;
         font-size: 36px;
         line-height: 56px;
         color: white;
     }
-    .navbar-sub-items {
+    .Navbar__NavbarSubItems {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
@@ -72,18 +72,18 @@
         font-size: 24px;
         width: 30rem;
     }
-    .navbar-sub-items .navbar-sub-item:hover {
+    .Navbar__NavbarSubItems .Navbar__NavbarSubItem:hover {
         color: black;
         font-weight: 600;
         cursor: pointer;
     }
-    .navbar-sub-item {
+    .Navbar__NavbarSubItem {
         width: 100%;
         text-align: center;
     }
 }
 
-.active {
+.Navbar__NavbarSubItemActive {
     color: black;
     font-weight: 600;
 }
