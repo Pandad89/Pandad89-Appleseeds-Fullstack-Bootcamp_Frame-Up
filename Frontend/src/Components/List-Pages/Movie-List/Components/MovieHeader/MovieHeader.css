@@ -2,15 +2,15 @@
     display: flex;
     gap: 8rem;
     align-items: center;
-
+    justify-content: center;
 }
 .MoviePage__Header__Image{
     background-image: url("../../../../../img/image2.png");
     background-size:100%;
     background-repeat: no-repeat;
-    height: 522px;
-    width: 928px;
-    border-radius: 20px;
+    height: 367px;
+    width: 664px;
+    border-radius: 30px;
 }
 .MoviePage__Header__Text{
     display: flex;
