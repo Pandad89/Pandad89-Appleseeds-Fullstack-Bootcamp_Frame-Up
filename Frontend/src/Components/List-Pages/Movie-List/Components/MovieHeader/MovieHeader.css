@@ -1,0 +1,43 @@
+.MoviePage__Header{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+
+}
+.MoviePage__Header__Image{
+    background-image: url("../../../../../img/image2.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 522px;
+    width: 928px;
+    border-radius: 20px;
+}
+.MoviePage__Header__Text{
+    display: flex;
+    flex-direction: column;
+    width: 41rem;
+    text-align: left;
+
+}
+.MoviePage__Header__Text__MovieName{
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+.MoviePage__HeaderText__MovieDesc{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+}
+.MoviePage__HeaderText__MovieDesc__FakeLink{
+    color: #afafaf;
+}
+.MoviePage__HeaderText__MovieDesc__FakeLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.MoviePage__HeaderText__MovieDesc__FakeLink:active{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
