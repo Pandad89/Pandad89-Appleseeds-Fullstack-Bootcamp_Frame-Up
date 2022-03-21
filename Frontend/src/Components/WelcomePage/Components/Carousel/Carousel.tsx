@@ -58,8 +58,8 @@ const Carousel: React.FC<CarouselProps> = (props) => {
     }
     return (
         <div className="WelcomePage_Carousel">
-            <button onClick={() => stepper("prev")} className="WlecomePage__Carousel-button WelcomePage__Carousel-prev-button">Prev</button>
-            <button onClick={() => stepper("next")} className="WlecomePage__Carousel-button WelcomePage__Carousel-next-button">Next</button>
+            <button onClick={() => stepper("prev")} className="WlecomePage__Carousel-button WelcomePage__Carousel-prev-button"></button>
+            <button onClick={() => stepper("next")} className="WlecomePage__Carousel-button WelcomePage__Carousel-next-button"></button>
             <CarouselList list={list} nextStep={nextStep} prevStep={prevStep} currentStep={currentStep} />
         </div>
     )
