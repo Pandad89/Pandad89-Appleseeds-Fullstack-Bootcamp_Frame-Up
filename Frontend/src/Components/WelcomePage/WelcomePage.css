@@ -1,0 +1,85 @@
+.WelcomePage__Container{
+    width: 100%;
+}
+
+.WelcomePage__Carousel-Container{
+    width: 100%;
+    margin-top:100px;
+}
+
+.WelcomePage_Carousel{
+    width: 100%;
+    position: relative;
+
+}
+
+
+.WlecomePage__Carousel-button{
+    position: absolute;
+    height: 120%;
+    width: 29rem;
+    background-color: #ffffff00;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.WelcomePage__Carousel-prev-button{
+    left: 0px;
+}
+.WelcomePage__Carousel-prev-button:hover{
+    transition: ease-in-out .3s;
+    background-image: linear-gradient(to left, #ffffff00, #252525);
+    cursor: pointer;
+}
+.WelcomePage__Carousel-next-button{
+    right: 0px;
+
+}
+.WelcomePage__Carousel-next-button:hover{
+    transition: ease-in-out .3s;
+    background-image: linear-gradient(to right, #ffffff00, #252525);
+    cursor: pointer;
+}
+.WelcomePage__Carousel-List{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    gap:1rem;
+    
+}
+
+.WelcomePage_Carousel-Item{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.WelcomePage_Carousel-Item-Image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.WelcomePage__Carousel-Item-Name{
+    font-size: 3rem;
+    color: #FFFFFF
+}
+
+.WelcomePage__Carousel-Item-Rating{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-size: 20px;
+}
+
+.WelcomePage__Carousel-Item-Rating-Icon{
+    font-size: 3rem;
+}
+.WelcomePage_Carousel-Item-Info{
+    display: flex;
+    gap: 3rem;
+}
