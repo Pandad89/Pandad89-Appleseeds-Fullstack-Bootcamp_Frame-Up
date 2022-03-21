@@ -30,6 +30,7 @@
 .WelcomePage__Carousel-prev-button:hover{
     transition: ease-in-out .3s;
     background-image: linear-gradient(to left, #ffffff00, #252525);
+    cursor: pointer;
 }
 .WelcomePage__Carousel-next-button{
     right: 0px;
@@ -38,6 +39,7 @@
 .WelcomePage__Carousel-next-button:hover{
     transition: ease-in-out .3s;
     background-image: linear-gradient(to right, #ffffff00, #252525);
+    cursor: pointer;
 }
 .WelcomePage__Carousel-List{
     display: grid;
@@ -51,7 +53,7 @@
 }
 
 .WelcomePage_Carousel-Item{
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
