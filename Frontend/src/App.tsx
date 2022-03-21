@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import WelcomePage from './Components/WelcomePage/WelcomePage';
+import NavBar from './Screens/GlobalComponents/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <WelcomePage />
-    </div>
+      <NavBar from={{
+        pathname: ''
+      }} prevState={null} location={undefined}/>
   );
 }
 

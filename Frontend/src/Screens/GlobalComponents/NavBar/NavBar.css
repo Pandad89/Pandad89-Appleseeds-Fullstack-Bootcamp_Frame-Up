@@ -1,0 +1,89 @@
+@media (max-width: 50rem) {
+    .Navbar__NavbarContainer {
+        width: 100%;
+        height: 3.125rem;
+        background: #7b61ff;
+        display: flex;
+        justify-content: center;
+    }
+    .Navbar__NavbarWrapper {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    .Navbar__NavbarLogo {
+        font-family: Monoton;
+        font-size: 1.25rem;
+        line-height: 3.5rem;
+        color: white;
+    }
+    .Navbar__NavbarSubItems {
+        display: flex;
+        justify-items: center;
+        margin: 0rem;
+        list-style: none;
+        gap: 2rem;
+        color: white;
+        font-family: Roboto;
+        font-size: 0.75rem;
+        width: 1rem;
+    }
+    .Navbar__NavbarSubItems .Navbar__NavbarSubItem:hover {
+        color: black;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .Navbar__NavbarSubItem {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 50rem) {
+    .Navbar__NavbarContainer {
+        width: 100%;
+        height: 4.375rem;
+        background: #7b61ff;
+        display: flex;
+        justify-content: center;
+    }
+    .Navbar__NavbarWrapper {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Navbar__NavbarLogo {
+        font-family: Monoton;
+        font-size: 2.25rem;
+        line-height: 3.5rem;
+        color: white;
+    }
+    .Navbar__NavbarSubItems {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        margin: 0rem;
+        list-style: none;
+        gap: 2rem;
+        color: white;
+        font-family: Roboto;
+        font-size: 1.5rem;
+        width: 30rem;
+    }
+    .Navbar__NavbarSubItems .Navbar__NavbarSubItem:hover {
+        color: black;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .Navbar__NavbarSubItem {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.Navbar__NavbarSubItemActive {
+    color: black;
+    font-weight: 600;
+}
