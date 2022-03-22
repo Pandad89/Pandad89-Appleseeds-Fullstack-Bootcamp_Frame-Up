@@ -1,0 +1,26 @@
+.SummaryPage_Container{
+    background-color: #E5E5E5;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 232px;
+}
+.SummaryPage__Image{
+    background-image:url('../../img/image3.jpg');
+    background-size: cover;
+    height: 562px;
+    width: 1000px;
+    border-radius: 20px;
+}
+.SummaryPage__TextArea{
+    width: 500px;
+}
+.SummaryPage__Text__Header{
+    padding: 1rem;
+}
+.SummaryPage__Text__Paragraph{
+    padding: 1rem;
+    text-align: left;
+    font-size: large;
+}
