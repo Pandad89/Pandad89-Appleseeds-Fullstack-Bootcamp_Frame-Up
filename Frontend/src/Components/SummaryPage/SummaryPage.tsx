@@ -4,7 +4,8 @@ import './SummaryPage.css'
 function SummaryPage() {
     return (
         <div className="SummaryPage_Container">
-            <div className="SummaryPage__Image"></div>
+            <p className="SummaryPage__BackArrow">&#8592;</p>
+            <img className="SummaryPage__Image"/>
             <div className="SummaryPage__TextArea">
                 <h2 className="SummaryPage__Text__Header">Lorem ipsum dolor</h2>
                 <p className="SummaryPage__Text__Paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque ultrices neque, ut fringilla turpis volutpat eget. Proin semper consequat sapien, ac vehicula sem maximus congue. Nullam sagittis bibendum scelerisque. Donec velit sapien, hendrerit in augue at, lobortis congue augue. Nam vulputate tellus at Vestibulum ultrices sit amet quam vel rutrum.
