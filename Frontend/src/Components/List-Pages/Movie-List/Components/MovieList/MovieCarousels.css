@@ -1,0 +1,48 @@
+.MovieCarousels__Container{
+    /* border: 2px red solid; */
+    /* padding: 1rem; */
+}
+.MovieCarousels__Carousel1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    gap: 1rem;
+}
+.MovieCarousels__Carousel1__Card{
+    height: 150px;
+    width: 240px;
+    background-color: #c4c4c4;
+    border-radius: 2rem;
+}
+.MovieCarousels__Carousel1__ButtonLeft{
+    background-color: #636363;
+    height: 180px;
+    width: 70px;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.MovieCarousels__Carousel1__ButtonRight{
+    background-color: #636363;
+    height: 180px;
+    width: 70px;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+.MovieCarousels__Carousel1__ButtonLeft p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-size: 4rem;
+    color: white;
+}
+.MovieCarousels__Carousel1__ButtonRight p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-size: 4rem;
+    color: white;
+
+}

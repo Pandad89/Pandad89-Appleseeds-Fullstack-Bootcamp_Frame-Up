@@ -1,0 +1,32 @@
+.SummaryPage_Container{
+    background-color: #E5E5E5;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+.SummaryPage__Image{
+    background-image:url('../../img/image3.jpg');
+    background-size: cover;
+    height: 720px;
+    width: 1280px;
+    border-radius: 20px;
+}
+.SummaryPage__TextArea{
+    width: 500px;
+}
+.SummaryPage__Text__Header{
+    padding: 16px;
+}
+.SummaryPage__Text__Paragraph{
+    padding: 16px;
+    text-align: left;
+    font-size: large;
+}
+.SummaryPage__BackArrow{
+    position: absolute;
+    left: 35px;
+    top: 77px;
+    font-size: 3rem;
+}
